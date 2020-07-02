@@ -442,6 +442,14 @@
     color: #fff;
     background: #ED2470;
   }
+  #why a {
+  color: black;
+}
+
+#why a:hover {
+  color: #e83e8c;
+  text-decoration: none;
+}
 }
 
 .specials img{
