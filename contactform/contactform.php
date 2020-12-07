@@ -2,7 +2,8 @@
 function($result)
 {
 	$subject = $_REQUEST['subject']; // Subject of your email
-	$to = $_REQUEST['email'];  //Recipient's E-mail
+	// $to = 'sayali.kulkarni17@gmail.com';
+	$to = $_REQUEST['sayali.kulkarni17@gmail.com'];  //Recipient's E-mail
 
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= "From: " . $_REQUEST['email'] . "\r\n"; // Sender's E-mail
